@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <title>Exercício 4</title>
+  </head>
+
+  <!--4) Desenvolva um script para validar a aprovação ou reprovação de um aluno em uma disciplina. Para isso, crie uma página onde o usuário deve informar
+      a nota 1 e a nota 2. Ao clicar em um botão, estes dados deverão ser processados. Este script deverá calcular a somatória das duas notas (nota_final) e verificar:
+
+      Se nota_total < 3,0 Então exibir mensagem de reprovado para o usuário
+      Se nota_total >=7,0 Então exibir mensagem de aprovado para o aluno
+      Se nota_final >=3,0 e < 7,0 Então exibir mensagem de exame para o aluno.-->
+      
+  <body>
+    <center>
+      <main class="container">
+        <div class="col-6 form-group">
+          <label>Informe a primeira nota: </label>
+          <input id="n1" type="text" class="form-control"/>
+        </div>
+        <div class="col-6 form-group">
+          <label>Informe a segunda nota: </label>
+          <input id="n2" type="text" class="form-control"/>
+        </div>
+        <div class="col-6 form-group">
+          <label>Situação final:</label>
+          <input id="txtresultado" type="text" class="form-control" readonly/>
+        </div>
+        <div class="col-6 form-group">
+          <input type="button" class="btn btn-success" value="Média" onclick="calcularmedia()"/>
+        </div>
+      </main>
+    </center>
+    
+    <footer>
+
+    </footer>
+
+    <script src="jsex4.js"></script>
+
+  </body>
+</html>

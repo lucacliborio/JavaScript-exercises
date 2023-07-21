@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <title>Exercício 2</title>
+  </head>
+
+  <!--2) Crie uma caixa de texto em html . Crie um botão em html que chama uma função em Javascript que
+      dependendo do valor introduzido mostra uma mensagem diferente em um Span.
+      
+      Entre 0 e 10: mostra “Insuficiente”
+      Entre 10 e 14: mostra “Bom”
+      Maior que 14: mostra “Muito Bom”-->
+
+  <body>
+    <center>
+      <main class="container">
+        <div class="col-6 form-group">
+          <label>Informe um número:</label>
+          <input id="txtnumero" type="text" class="form-control"/> 
+        </div>
+        <div class="col-6 form-group">
+          <input type="button" class="btn btn-success" value="validar" onclick="validarnumero()"/>
+        </div>
+      </main>
+    </center>
+
+    <footer>
+
+    </footer>
+
+    <script src="jsex2.js"></script>
+  </body>
+</html>

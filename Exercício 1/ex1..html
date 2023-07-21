@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <title>Exercício 1</title>
+  </head>
+
+  <!--1) Crie duas caixas de texto em HTML. Crie código em Javascript que mostra a mensagem “primeira caixa ativada” quando clica no primeiro input text.
+     Crie código em Javascript que mostra uma mensagem “perdeu o foco” quando clica em outro local sem ser a primeira caixa de texto.-->
+  <body>
+    <center>
+    <main class="container">
+      <div class="col-6 form-group">
+        <labe>Caixa de texto 1: </labe>
+        <input id="txt1" type="text" class="form-control" onclick="clique()" onblur="clique2()">
+        <span id="txtn1"></span>
+      </div>
+      <div class="col-6 form-group">
+        <labe>Caixa de texto 2: </labe>
+        <input id="txt2" type="text" class="form-control">
+      </div>
+    </main>
+  </center>
+
+  <footer>
+
+  </footer>
+
+    <script src="jsex1.js"></script>
+  </body>
+</html>

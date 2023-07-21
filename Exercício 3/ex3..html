@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <title>Exercício 3</title>
+  </head>
+
+  <!--3) A prefeitura de uma cidade calcula a base das tarifas de fornecimento de água de acordo com as faixas de consumo
+      conforme abaixo. Após calculado o valor base, a prefeitura dá um desconto de 5% para os valores até R$ 100,00 e cobra
+      um acréscimo de 10% para os valores acima de R$ 200,00. Faça um programa para calcular a cobrança dado o consumo em m3.
+
+      Até 20m3 : R$ 1,60 por m3
+      De 21 a 50 m3: R$ 2,80 m3
+      Acima de 50m3: R$ 4,20 por m3.-->
+
+  <body>
+    <center>
+      <main class="container">
+        <div class="col-6 form-group">
+          <label>Informe a quantidade de m3 gastos: </label>
+          <input id="txtn1" type="text" class="form-control"/>
+        </div>
+        <div class="col-6 form-group">
+          <label>Valor a pagar: </label>
+          <input id="txtresultado" type="text" class="form-control" readonly/>
+        </div>
+        <div class="col-4 form-group">
+          <input type="button" class="btn btn-success" value="Calcular" onclick="calculardesconto()"/>
+        </div>
+
+      </main>
+    </center>
+    
+    <footer>
+
+    </footer>
+
+    <script src="jsex3.js"></script>
+
+  </body>
+</html>
