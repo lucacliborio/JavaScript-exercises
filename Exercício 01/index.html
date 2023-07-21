@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <title>Exercício 1</title>
+  </head>
+  <body>
+    <center>
+    <main>
+      <div class="container">
+        <div class="form-group">
+          <label>Classificação</label>
+          <select class="form-control" id="ddclassificacao">
+            <option value="1">Junior</option>
+            <option value="2">Pleno</option>
+            <option value="3">Senior</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Qtde Horas</label>
+          <input type="number"
+                 class="form-control"
+                 id="txthoras"/>
+        </div>
+        
+        <div class="form-group">
+          <input type="button"
+                 class="btn btn-primary"
+                 id="btncalcular"
+                 value="Calular"
+                 onclick="calcular()"/>
+                 <br>
+                 <br>
+           <h2>O salário final é
+             <span id="txttotal"></span>
+           </h2>
+        </div>
+
+        <div class="form-group">
+          <img id="imgcadeado" src="img/Fechado.png" onmouseover="insereImagemAberto()" onmouseout="insereImagemFechado()"/>
+        </div>
+
+      </div>
+    </main>
+  </center>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+
+    <script src="jsex1.js"></script>
+  </body>
+</html>
